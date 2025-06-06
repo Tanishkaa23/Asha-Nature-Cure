@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHA NATURECURE - Holistic Wellness & Natural Healing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <header class="site-header">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <a href="#hero">
+                            <img src="media/logo.png" alt="ASHA NATURECURE Logo" id="logo-img">
+                        </a>
+                    </div>
+                    <ul class="navbar__links">
+                        <li><a href="#hero" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About Us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Offerings <span class="arrow">▾</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#services" class="nav-link">Services</a></li>
+                                <li><a href="products.html" class="nav-link">All Products</a></li>
+                                <li><a href="blog.html" class="nav-link">Full Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Well-being <span class="arrow">▾</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#yoga" class="nav-link">Yoga & Bootcamps</a></li>
+                                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="sun" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm0 13a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm8-5a1 1 0 01-.293.707l-.707.707a1 1 0 11-1.414-1.414l.707-.707A1 1 0 0118 10zm-12.707.293a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707A1 1 0 015.293 10.293zM10 4a6 6 0 100 12 6 6 0 000-12zm-8 6a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm14 0a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1z"></path></svg>
+                        <svg class="moon" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                    </button>
+                    <button class="navbar__toggler" aria-label="Toggle navigation">
+                        <span></span><span></span><span></span>
+                    </button>
+                </nav>
+            </header>
+
+            <main>
+                <!-- Hero Section -->
+                <section id="hero" class="hero-section section-padding">
+                    <div class="hero-background-shapes">
+                        <div class="shape shape-1"></div> <div class="shape shape-2"></div> <div class="shape shape-3"></div> <div class="shape shape-4"></div> <div class="shape shape-5"></div>
+                    </div>
+                    <div class="hero-section__content">
+                        <h1 class="hero-title split-text"><span>Nourish.</span> <span>Heal.</span> <span>Thrive.</span></h1>
+                        <p class="hero-subtitle animate-p">ASHA NATURECURE: Your path to natural well-being with Dr. Roopali & Dr. Kavitha.</p>
+                        <a href="#services" class="btn btn--primary animate-btn">Explore Our Services</a>
+                    </div>
+                </section>
+
+                <!-- About Us Section -->
+                <section id="about" class="about-section section-padding alt-bg">
+                    <div class="container">
+                        <h2 class="section-title animate-title">Meet Your Guides to Wellness</h2>
+                        <p class="section-subtitle animate-p">
+                            At ASHA NATURECURE, we are passionate about empowering you with natural solutions for a healthier, more vibrant life. Our approach is rooted in holistic principles, treating the individual, not just the ailment.
+                        </p>
+                        <div class="doctors-preview">
+                            <div class="doctor-card card-animated animate-card">
+                                <div class="doctor-image-placeholder" style="background-color: var(--secondary-accent);" aria-label="Dr. Roopali Placeholder">
+                                    <img src="media/Dr. Rupali.jpg" alt="Dr. Roopali">
+                                </div>
+                                <h3>Dr. Roopali</h3>
+                                <p>Dedicated to ozone therapy and transformative lifestyle guidance for holistic healing and well-being.</p>
+                            </div>
+                            <div class="doctor-card card-animated animate-card" data-delay="0.2">
+                                <div class="doctor-image-placeholder" style="background-color: var(--primary-accent);" aria-label="Dr. Kavitha Placeholder">
+                                    <img src="media/Dr. Kavitha.jpg" alt="Dr. Kavitha">
+                                </div>
+                                <h3>Dr. Kavitha</h3>
+                                <p>Expert in naturopathic healing and therapeutic yoga for holistic balance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Services Section -->
+                <section id="services" class="services-section section-padding">
+                    <div class="container">
+                        <h2 class="section-title animate-title">Our Natural Healing Services</h2>
+                        <div class="services-grid">
+                            <div class="service-item card-animated animate-service-item">
+                                <div class="service-icon">🌿</div>
+                                <h4>Ozone Therapy</h4>
+                                <p>Gentle, individualized remedies to stimulate your body's innate healing capacity.</p>
+                            </div>
+                            <div class="service-item card-animated animate-service-item" data-delay="0.1">
+                                <div class="service-icon">🍎</div>
+                                <h4>Naturopathy & Diet</h4>
+                                <p>Personalized nutrition plans and natural therapies for optimal health and vitality.</p>
+                            </div>
+                            <div class="service-item card-animated animate-service-item" data-delay="0.2">
+                                <div class="service-icon">🧘‍♀️</div>
+                                <h4>Yoga & Wellness</h4>
+                                <p>Online and offline sessions, bootcamps, and workshops for mind-body harmony.</p>
+                            </div>
+                            <div class="service-item card-animated animate-service-item" data-delay="0.2">
+                                <div class="service-icon">🧘‍♀️</div>
+                                <h4>Accupuncture</h4>
+                                <p>Online and offline sessions, bootcamps, and workshops for mind-body harmony.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Products Section -->
+                <section id="products" class="products-section section-padding alt-bg">
+                     <div class="container">
+                        <h2 class="section-title animate-title">Featured Wellness Products</h2>
+                        <p class="section-subtitle animate-p">Explore a selection of our carefully curated natural products. For a full range, please visit our products page.</p>
+                        <div class="products-grid">
+                            <div class="product-card card-animated animate-card">
+                                <div class="product-image-placeholder">
+                                    <img src="media/coconut-oil.jpg" alt="Coconut Oil">
+                                </div>
+                                <h3>Coconut Oil</h3>
+                                <p>A natural infusion to support your body's defenses.</p>
+                                <button class="btn btn--secondary product-enquire-btn">Enquire to Order</button>
+                            </div>
+                            <div class="product-card card-animated animate-card" data-delay="0.1">
+                                <div class="product-image-placeholder">
+                                    <img src="media/pr-oil.jpg" alt="Pain Relief Oil">
+                                </div>
+                                <h3>Pain Relief Oil</h3>
+                                <p>Gentle, nourishing care for sensitive skin.</p>
+                                 <button class="btn btn--secondary product-enquire-btn">Enquire to Order</button>
+                            </div>
+                             <div class="product-card card-animated animate-card" data-delay="0.2">
+                                <div class="product-image-placeholder">
+                                    <img src="media/lep.jpg" alt="Pain Relief Ointment">
+                                </div>
+                                <h3>Pain relief Ointment</h3>
+                                <p>A revitalizing blend to uplift your day.</p>
+                                 <button class="btn btn--secondary product-enquire-btn">Enquire to Order</button>
+                            </div>
+                        </div>
+                        <div class="text-center" style="margin-top: 2.5rem;">
+                            <a href="products.html" class="btn btn--primary animate-btn">View All Products</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Blog Preview Section -->
+                <section id="blog-preview" class="blog-preview-section section-padding">
+                    <div class="container">
+                        <h2 class="section-title animate-title">Insights from Our Blog</h2>
+                        <div class="blog-grid">
+                            <a href="blog.html#post1" class="blog-post-preview-link card-animated animate-card"> <!-- Modified to link to post1 for example -->
+                                <article class="blog-post-preview">
+                                    <h3> Ozone Therapy in Naturopathy: A Modern Twist on Natural Healing</h3>
+                                    <p class="blog-excerpt">Ozone therapy is fast gaining popularity as a powerful natural healing tool. Rooted in the belief that the ...</p>
+                                    <span class="read-more-link">Read More →</span>
+                                </article>
+                            </a>
+                            <a href="blog.html#post2" class="blog-post-preview-link card-animated animate-card"> <!-- Modified to link to post2 for example -->
+                                <article class="blog-post-preview">
+                                    <h3>Nature’s Pharmacy: Top 7 Herbs Every Household Should Have</h3>
+                                    <p class="blog-excerpt">Nature has long been our first source of medicine, and even today, the healing power of herbs remains ...</p>
+                                    <span class="read-more-link">Read More →</span>
+                                </article>
+                            </a>
+                        </div>
+                         <div class="text-center" style="margin-top: 2.5rem;">
+                            <a href="blog.html" class="btn btn--secondary animate-btn">Visit Full Blog</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Yoga Section -->
+                 <section id="yoga" class="yoga-section section-padding alt-bg">
+                    <div class="container">
+                        <h2 class="section-title animate-title">Revitalize with Yoga & Bootcamps</h2>
+                        <p class="section-subtitle animate-p">
+                            Join our online and offline yoga sessions designed to enhance flexibility, reduce stress, and cultivate inner peace. We also offer specialized bootcamps and wellness workshops focusing on holistic living.
+                        </p>
+                        <div class="yoga-cta-area">
+                            <a href="#contact" class="btn btn--primary animate-btn">Enquire About Sessions</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Testimonials Section -->
+                <section id="testimonials" class="testimonials-section section-padding">
+                    <div class="container">
+                        <h2 class="section-title animate-title">Words from Our Community</h2>
+                        <div class="testimonial-item card-animated animate-card">
+                            <p>" Dr. Roopali's guidance has been invaluable. My energy levels are up, and I feel so much better overall! "</p>
+                            <cite>– Shuchi Sharma , Katni</cite>
+                        </div>
+                        <div class="testimonial-item card-animated animate-card" data-delay="0.1" style="margin-top: 2rem;">
+                            <p>" The diet plan was easy to follow and truly effective. Kavitha's yoga sessions are a highlight of my week. "</p>
+                            <cite>– Rekha Patel , Mumbai</cite>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="contact-section section-padding alt-bg">
+                    <div class="container">
+                        <h2 class="section-title animate-title">Get in Touch</h2>
+                        <p class="section-subtitle animate-p">
+                            Ready to start your journey to natural wellness? Contact us to book a consultation or learn more about our services.
+                        </p>
+                        <div class="contact-details">
+                            <p><strong>ASHA NATURECURE</strong></p>
+                            <p>F-46, Dwarka City, Katni, MP</p>
+                            <p>Phone : 9990519973 / 9900645859</p>
+                            <p>Email : ashanaturecure@gmail.com</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="site-footer-bottom">
+                <div class="container">
+                    <p>© <span id="currentYear"></span> ASHA NATURECURE. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Product Enquiry Modal -->
+    <div id="productEnquiryModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close-btn">×</span>
+            <h2>Enquire About Product</h2>
+            <p>To place an order or for more details, please contact us at:</p>
+            <p class="modal-contact-info"><strong>Phone: 9990519973 / 9900645859</strong></p>
+            <p>We look forward to assisting you!</p>
+        </div>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.22/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
